@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="/android-joystickconsole-build/"/>
+	<classpathentry kind="var" path="USER_HOME/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/quasiquotes_2.10-2.0.1.jar" sourcepath="/USER_HOME/.ivy2/cache/jline/jline/srcs/jline-2.11-sources.jar"/>
+	<classpathentry kind="output" path="/project/target/idea-classes"/>
+</classpath>
