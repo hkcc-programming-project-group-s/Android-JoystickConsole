@@ -1,7 +1,5 @@
-package com.example.student;
+package edu.hkcc.pacmanrobot.controller.androidcontroller;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -10,19 +8,20 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.SurfaceHolder;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 public class GameThread extends Thread {
 
-    private final SurfaceHolder mSurfaceHolder;
-    private Paint mLinePaint;
-    private Paint blackPaint;
-
-    //state of game (Running or Paused).
-    int state = 1;
     public final static int RUNNING = 1;
     public final static int PAUSED = 2;
     public final static int STOPPED = 3;
-
+    private final SurfaceHolder mSurfaceHolder;
+    //state of game (Running or Paused).
+    int state = 1;
     GameSurface gEngine;
+    private Paint mLinePaint;
+    private Paint blackPaint;
 
     public GameThread(SurfaceHolder surfaceHolder, Context context, Handler handler, GameSurface gEngineS) {
         //data about the screen

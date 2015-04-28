@@ -9,7 +9,7 @@
         android:label="@string/app_name"
         android:icon="@drawable/ic_launcher">
         <activity
-            android:name="Main"
+            android:name="edu.hkcc.pacmanrobot.controller.androidcontroller.Main"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>

@@ -1,19 +1,21 @@
-package com.example.student;
+package edu.hkcc.pacmanrobot.controller.androidcontroller;
 
 import android.graphics.Canvas;
 import android.os.Handler;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
-import static com.example.student.GameControls.cx;
-import static com.example.student.GameControls.cy;
+import static edu.hkcc.pacmanrobot.controller.androidcontroller.GameControls.cx;
+import static edu.hkcc.pacmanrobot.controller.androidcontroller.GameControls.cy;
 
 public class GameSurface extends SurfaceView implements SurfaceHolder.Callback {
+    public int joystick_half_width = 26;
+    public int joystick_bg_half_width = 45;
     private Main master;
     private GameThread gameThread;
+    //private Bitmap pointer;
     private GameControls gameControls;
     private GameJoystick gameJoystick;
-    //private Bitmap pointer;
 
     public GameSurface(Main master) {
         super(master);
@@ -47,9 +49,6 @@ public class GameSurface extends SurfaceView implements SurfaceHolder.Callback {
         canvas.drawBitmap(gameJoystick.get_joystickBg(), (cx - bg_offset_x), (cy - bg_offset_y), null);
         canvas.drawBitmap(gameJoystick.get_joystick(), gameControls.touchingPoint.x - offset_x, gameControls.touchingPoint.y - offset_y, null);
     }
-
-    public int joystick_half_width = 26;
-    public int joystick_bg_half_width = 45;
 
     @Override
     public void surfaceChanged(SurfaceHolder arg0, int arg1, int arg2, int arg3) {

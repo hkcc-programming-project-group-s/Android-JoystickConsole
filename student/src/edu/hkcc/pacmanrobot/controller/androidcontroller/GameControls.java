@@ -1,4 +1,4 @@
-package com.example.student;
+package edu.hkcc.pacmanrobot.controller.androidcontroller;
 
 import android.app.Activity;
 import android.graphics.Point;

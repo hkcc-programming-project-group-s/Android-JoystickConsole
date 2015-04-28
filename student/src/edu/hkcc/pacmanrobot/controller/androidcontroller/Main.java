@@ -1,4 +1,4 @@
-package com.example.student;
+package edu.hkcc.pacmanrobot.controller.androidcontroller;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -9,6 +9,8 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.WindowManager;
 import android.widget.Toast;
+import com.example.student.R;
+import edu.hkcc.pacmanrobot.controller.androidcontroller.GameSurface;
 
 public class Main extends Activity {
     private boolean PressedOnce = false;
