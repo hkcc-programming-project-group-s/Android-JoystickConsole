@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pacman">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/pacman.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

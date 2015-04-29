@@ -3,7 +3,7 @@ package edu.hkcc.pacmanrobot.controller.androidcontroller;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import com.example.student.R;
+//import com.example.student.R;
 
 public class GameJoystick {
 

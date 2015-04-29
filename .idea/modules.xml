@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-joystickconsole.iml" filepath="$PROJECT_DIR$/.idea/modules/android-joystickconsole.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-joystickconsole-build.iml" filepath="$PROJECT_DIR$/.idea/modules/android-joystickconsole-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/student/student.iml" filepath="$PROJECT_DIR$/student/student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student/pacman-controller.iml" filepath="$PROJECT_DIR$/student/pacman-controller.iml" />
     </modules>
   </component>
 </project>

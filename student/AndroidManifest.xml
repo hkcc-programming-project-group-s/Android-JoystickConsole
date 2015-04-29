@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.student"
+          package="edu.hkcc.pacmanrobot.controller.androidcontroller"
           android:versionCode="1"
           android:versionName="1.0">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <uses-sdk android:minSdkVersion="19"/>
     <application
         android:label="@string/app_name"
         android:icon="@drawable/ic_launcher">
         <activity
-            android:name="edu.hkcc.pacmanrobot.controller.androidcontroller.Main"
+            android:name=".Main"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
